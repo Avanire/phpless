@@ -1,0 +1,12 @@
+Fault: 12-03-2021 17:03:26 - Неверное имя файла для подключения - core/admin/controllers/IndexController
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\settings\internal_settings.php
+in line 34
+
+Fault: 12-03-2021 17:03:26 - Class core\admin\controllers\IndexController does not exist
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\controllers\BaseController.php
+in line 43
+
+Fault: 12-03-2021 17:03:16 - Не корректная директория сайта
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\controllers\RouteController.php
+in line 100
+

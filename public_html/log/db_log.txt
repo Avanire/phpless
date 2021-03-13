@@ -1,0 +1,12 @@
+Fault: 12-03-2021 17:03:44 - Ошибка подключения к БД: 1045 Access denied for user 'root'@'localhost' (using password: NO)
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 23
+
+Fault: 12-03-2021 17:03:41 - Ошибка в SQL запросе SELECT * FROM article - 0 
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 34
+
+Fault: 12-03-2021 17:03:56 - Ошибка в SQL запросе SELECT * FROM article - 0 
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 34
+
