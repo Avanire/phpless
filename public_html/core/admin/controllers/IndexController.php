@@ -1,9 +1,10 @@
 <?php
 
-namespace core\user\controllers;
+namespace core\admin\controllers;
 
 use core\base\controllers\BaseController;
 use core\admin\models\Model;
+use core\base\settings\Settings;
 
 class IndexController extends BaseController
 {
@@ -11,12 +12,8 @@ class IndexController extends BaseController
 
     protected function inputData()
     {
-        $db = Model::instance();
-
-        $res = $db->get();
-
-        exit();
-
+        $redirect = PATH . Settings::get('routes')['admin']['alias'] . '/show';
+        $this->redirect($redirect);
     }
 
     protected function outputData()

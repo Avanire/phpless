@@ -10,3 +10,91 @@ Fault: 12-03-2021 17:03:56 - Ошибка в SQL запросе SELECT * FROM ar
 file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
 in line 34
 
+Fault: 17-03-2021 15:03:32 - Ошибка в SQL запросе SELECT category.id,category.name FROM category   ORDER BY 1 DESC,category.name DESC 1 - 0 
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 34
+
+Fault: 17-03-2021 15:03:43 - Ошибка в SQL запросе SELECT category.id,category.name FROM category   ORDER BY 1 DESC,category.name DESC 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 34
+
+Fault: 17-03-2021 15:03:09 - Ошибка в SQL запросе SELECT category.id,category.name FROM category   ORDER BY 1 DESC,category.name DESC 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 34
+
+Fault: 17-03-2021 16:03:11 - Ошибка в SQL запросе SELECT category.id,category.name FROM category  WHERE category.name IN ('masha') AND category.surname NOT IN (SELECT id FROM product WHERE id = 1) ORDER BY 1 DESC,category.name DESC LIMIT 1 - 1054 Unknown column 'category.surname' in 'IN/ALL/ANY subquery'
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 34
+
+Fault: 21-03-2021 08:03:10 - Ошибка в SQL запросе INSERT INTO product (name,description,gallery_img,img,) VALUES ({insert_arr['values']}) - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') VALUES ({insert_arr['values']})' at line 1
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 42
+
+Fault: 21-03-2021 08:03:30 - Ошибка в SQL запросе INSERT INTO product (name,description,gallery_img,img) VALUES ({insert_arr['values']}) - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['values']})' at line 1
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 42
+
+Fault: 21-03-2021 09:03:19 - Ошибка в SQL запросе INSERT INTO product (name,description,gallery_img,img) VALUES ({insert_arr['values']}) - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['values']})' at line 1
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 42
+
+Fault: 21-03-2021 09:03:24 - Ошибка в SQL запросе INSERT INTO product (name,description,gallery_img,img) VALUES ({insert_arr['values']}) - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['values']})' at line 1
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 42
+
+Fault: 23-03-2021 16:03:20 - Ошибка в SQL запросе UPDATE product SET name='Gali',content='<p>gshgdfs` \'jeur\'</p>>' WHERE id=3 - 1054 Unknown column 'content' in 'field list'
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 42
+
+Fault: 23-03-2021 16:03:55 - Ошибка в SQL запросе UPDATE product SET name='Gali',content='<p>gshgdfs \'jeur\'</p>>' WHERE id=3 - 1054 Unknown column 'content' in 'field list'
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 42
+
+Fault: 23-03-2021 16:03:18 - Ошибка в SQL запросе UPDATE product SET name='Gali',content='<p>gshgdfs \'jeur\'</p>' WHERE id=3 - 1054 Unknown column 'content' in 'field list'
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 42
+
+Fault: 24-03-2021 18:03:29 - Ошибка в SQL запросе UPDATE product SET name=,img= WHERE product.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'img= WHERE product.id='1'' at line 1
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 42
+
+Fault: 24-03-2021 18:03:48 - Ошибка в SQL запросе UPDATE product SET name=,img= WHERE product.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'img= WHERE product.id='1'' at line 1
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 42
+
+Fault: 24-03-2021 18:03:15 - Ошибка в SQL запросе DELETE product , product FROM product LEFT JOINproduct ON product.parent_id=product.id WHERE product.id='3'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOINproduct ON product.parent_id=product.id WHERE product.id='3'' at line 1
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 42
+
+Fault: 24-03-2021 18:03:43 - Ошибка в SQL запросе DELETE category , product FROM category LEFT JOINproduct ON category.parent_id=product.id WHERE category.id='2'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOINproduct ON category.parent_id=product.id WHERE category.id='2'' at line 1
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 42
+
+Fault: 24-03-2021 19:03:49 - Ошибка в SQL запросе DELETE category, product FROM category LEFT JOINproduct ON category.parent_id=product.id WHERE category.id='2'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOINproduct ON category.parent_id=product.id WHERE category.id='2'' at line 1
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 42
+
+Fault: 24-03-2021 19:03:34 - Ошибка в SQL запросе DELETE category, product FROM category LEFT JOINproduct ON category.id=product.parent_id WHERE category.id='2'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOINproduct ON category.id=product.parent_id WHERE category.id='2'' at line 1
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 42
+
+Fault: 24-03-2021 19:03:24 - Ошибка в SQL запросе DELETE category, product FROM category LEFT JOINproduct ON category.id=product.parent_id  WHERE category.id='2'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOINproduct ON category.id=product.parent_id  WHERE category.id='2'' at line 1
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 42
+
+Fault: 24-03-2021 19:03:27 - Ошибка в SQL запросе DELETE category, product FROM category LEFT JOINproduct ON category.id=product.parent_id  WHERE category.id='2'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOINproduct ON category.id=product.parent_id  WHERE category.id='2'' at line 1
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 42
+
+Fault: 24-03-2021 19:03:41 - Ошибка в SQL запросе DELETE category, product FROM category  LEFT JOINproduct ON category.id=product.parent_id WHERE category.id='2'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOINproduct ON category.id=product.parent_id WHERE category.id='2'' at line 1
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 42
+
+Fault: 05-04-2021 17:04:48 - Ошибка в SQL запросе SELECT * FROM      - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 42
+
+Fault: 18-05-2021 16:05:19 - Ошибка в SQL запросе SELECT product.id as id,product.name,product.img,product.content,product.parent_id FROM product   ORDER BY product.parent_id ASC,product.menu_position ASC  - 1054 Unknown column 'product.content' in 'field list'
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\models\BaseModel.php
+in line 42
+

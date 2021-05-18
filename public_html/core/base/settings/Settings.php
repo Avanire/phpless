@@ -45,6 +45,10 @@ class Settings
         ],
     ];
 
+    private $defaultTable = 'product';
+
+    private $expansion = 'core/admin/expansion/';
+
     public static function get($property)
     {
         return self::instance()->$property;
@@ -92,4 +96,6 @@ class Settings
 
         return $base;
     }
+
+
 }

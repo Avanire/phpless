@@ -10,3 +10,123 @@ Fault: 12-03-2021 17:03:16 - Не корректная директория са
 file C:\OpenServer\domains\zoo.loc\public_html\core\base\controllers\RouteController.php
 in line 100
 
+Fault: 05-04-2021 17:04:09 - Не найдены поля в таблице category
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 05-04-2021 17:04:09 - Не найдены поля в таблице category
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 05-04-2021 17:04:09 - Не найдены поля в таблице category
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 05-04-2021 17:04:21 - Не найдены поля в таблице category
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 05-04-2021 17:04:30 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 05-04-2021 17:04:59 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 05-04-2021 17:04:40 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 05-04-2021 17:04:06 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 05-04-2021 17:04:29 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 05-04-2021 17:04:40 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 05-04-2021 18:04:32 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 05-04-2021 18:04:50 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 05-04-2021 18:04:51 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 20-04-2021 17:04:15 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 20-04-2021 17:04:25 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 20-04-2021 17:04:47 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 20-04-2021 17:04:13 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 20-04-2021 17:04:20 - Не корректная директория сайта
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\controllers\RouteController.php
+in line 100
+
+Fault: 20-04-2021 17:04:23 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 20-04-2021 17:04:20 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 20-04-2021 17:04:25 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 20-04-2021 17:04:57 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 20-04-2021 17:04:20 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 18-05-2021 16:05:11 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 18-05-2021 16:05:35 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 18-05-2021 16:05:19 - Не корректная директория сайта
+file C:\OpenServer\domains\zoo.loc\public_html\core\base\controllers\RouteController.php
+in line 100
+
+Fault: 18-05-2021 16:05:25 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 18-05-2021 16:05:52 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 18-05-2021 16:05:19 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 18-05-2021 16:05:53 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
