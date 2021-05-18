@@ -20,7 +20,7 @@ class RouteController extends BaseController
 
         if ($path === PATH) {
 
-            if (strrpos($address_str, '/') === strlen($address_str) - 1 && strrpos($address_str, PATH) != 0) {
+            if (strrpos($address_str, '/') === strlen($address_str) - 1 && strrpos($address_str, '/') != strlen(PATH) - 1) {
                 $this->redirect(rtrim($address_str, '/'), 301);
             }
 

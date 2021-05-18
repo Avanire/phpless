@@ -4,18 +4,15 @@
 namespace core\base\models;
 
 
-use core\base\controllers\Singleton;
 use core\base\exceptions\DbException;
 use mysqli;
 
-class BaseModel extends BaseModelMethods
+abstract class BaseModel extends BaseModelMethods
 {
-
-    use Singleton;
 
     protected $db;
 
-    private function __construct()
+    protected function connect()
     {
         $this->db = @new mysqli(HOST, USER, PASS, DB_NAME);
 

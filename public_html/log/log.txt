@@ -130,3 +130,11 @@ Fault: 18-05-2021 16:05:53 - Не найдены поля в таблице prod
 file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
 in line 66
 
+Fault: 18-05-2021 16:05:46 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
+Fault: 18-05-2021 16:05:32 - Не найдены поля в таблице product
+file C:\OpenServer\domains\zoo.loc\public_html\core\admin\controllers\BaseAdmin.php
+in line 66
+
